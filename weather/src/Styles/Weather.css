@@ -5,7 +5,7 @@ body[data-theme=light] {
   }
   
   body[data-theme=dark] {
-    background: linear-gradient(171.8deg, rgb(5, 111, 146) 13.5%, rgb(6, 57, 84) 78.6%);
+    background: linear-gradient(178deg, rgb(1, 45, 71) 15%, rgb(41, 80, 119) 72%, rgb(8, 67, 186) 100%);
     color: white;
     transition: background-color 1050ms ease-in-out;
   }
