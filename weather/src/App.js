@@ -8,7 +8,7 @@ function App() {
       <div className="container">
         <Weather defaultCity="Bergondo"/>
          <footer className="weather-link">
-         <a href="https://github.com/Dianab177/App-Weather-React-Final" target="_blank" title="link to github"  rel="noopener noreferrer">Open-source code</a>, by <a href="https://www.linkedin.com/in/dianaborrajo/">Diana Borrajo</a> 
+         <a href="https://github.com/Dianab177/Experimentos-React-Weather-App.git" target="_blank" title="link to github"  rel="noopener noreferrer">Open-source code</a>, by <a href="https://www.linkedin.com/in/dianaborrajo/">Diana Borrajo</a> 
          </footer>
          </div>
     </div>
