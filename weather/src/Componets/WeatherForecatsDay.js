@@ -18,9 +18,9 @@ const WeatherForecatsDay = (props) => {
         }
     
   return (
-    <div>
+    <div className='container-day'>
         <div className='WeatherForecastDay'>{day()}</div>
-         <div><WeatherIcon code={props.data.weather[0].icon} style="width: 30px" size={100}/></div>
+         <div><WeatherIcon code={props.data.weather[0].icon} size={100}/></div>
            <div className='WeatherForecastTemperature'>
                 <span className='WeatherForecastTemperature-max'>{maxTemperature()}º</span>
                 <span className='WeatherForecastTemperature-min'>{minTemperature()}º</span>

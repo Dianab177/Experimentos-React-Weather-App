@@ -16,7 +16,7 @@ const WeatherInfo = (props) => {
       <div className="col-6">
         <div className="clearfix d-flex">
             <div className="d-inline-block">
-            <WeatherIcon code={props.data.icon} size={100}/>
+            <WeatherIcon code={props.data.icon} size={500}/>
             </div>
         <div>
           <WeatherTemperature celsius={props.data.temperature} />
