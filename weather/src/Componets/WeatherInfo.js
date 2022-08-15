@@ -6,11 +6,10 @@ import "../Styles/Weather.css";
 
 const WeatherInfo = (props) => {
   return (
-    <div className="">
       <div className="row mt-3">
         <div className="col-4 d-flex justify-content-center align-items-center ">
           <div className="d-inline-block">
-            <WeatherIcon code={props.data.icon} size={48} />
+            <WeatherIcon code={props.data.icon} size={100} className="Weather"/>
           </div>
         </div>
         <div className="col-4">
@@ -33,7 +32,6 @@ const WeatherInfo = (props) => {
           </ul>
         </div>
       </div>
-    </div>
   );
 };
 
