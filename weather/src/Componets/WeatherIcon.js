@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactAnimatedWeather from 'react-animated-weather';
-
+import "../Styles/Weather.css";
 
 const WeatherIcon = (props) => {
   const codeMappping = {

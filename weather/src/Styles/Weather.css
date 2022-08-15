@@ -20,20 +20,13 @@ body[data-theme=light] {
     border-radius:  4px;
 }
 .weather-container {
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
   margin: 20px 0;
-  max-width: 630px;
+  max-width: 650px;
   padding: 20px 16px 24px 16px;
-}
-
-
-.Weather canvas{
-    margin: 10px auto;
 }
 .Weather h1{
 font-size: 24px;
 font-weight: 100;
-margin: 20px 0 0 0;
 line-height: 29px;
 color: goldenrod;
 }
@@ -42,7 +35,7 @@ color: goldenrod;
     padding: 0;
 }
 .Weather li{
-font-size: 16px;
+font-size: 15px;
 font-weight: 100;
 line-height: 19px;
 list-style: none;
@@ -51,6 +44,7 @@ margin-top: 5px;
 .Weather a{
     color:goldenrod;
     text-decoration: none;
+    
 }
 .Weather canvas{
     height: 64px;
@@ -59,6 +53,7 @@ margin-top: 5px;
     display: inline-block;
 }
 .Weather .temperature{
+    text-align: center;
     font-weight: bold;
     font-size: 64px;
     line-height: 84px;
@@ -74,9 +69,6 @@ margin-top: 5px;
     top: -34px;
 }
 .Weather .description{
-    text-align: center;
+    text-align: right;
   
-}
-.search:hover{
-
 }

@@ -47,8 +47,8 @@ const Weather = (props) => {
                 <button type="submit" className="btn btn-link">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="35"
-                    height="35"
+                    width="25"
+                    height="25"
                     fill="grey"
                     class="bi bi-search text-center"
                     viewBox="0 0 16 16"
@@ -61,7 +61,7 @@ const Weather = (props) => {
                 <input
                   type="search"
                   id="search-text"
-                  className="form control bg-warning h4 border p-2 rounded-5 opacity-75"
+                  className="form control bg-warning h4 border p-1 rounded-5 opacity-75"
                   placeholder="  Enter a city..."
                   autoComplete="off"
                   onChange={handleCityChange}

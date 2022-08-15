@@ -20,7 +20,7 @@ const FormattedDate = (props) => {
         minutes = `0${minutes}`;
     }
   return (
-    <div>
+    <div className="description">
         {day} {hours}:{minutes}
     </div>
   )

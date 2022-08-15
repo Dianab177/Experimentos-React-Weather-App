@@ -31,7 +31,7 @@ const BackgroundDay = () => {
   return (
     <div className="App">
       <div className="swichtDay">
-        <DayNightToggle size={40} onChange={handleChangeTheme} checked={isDarkMode} />
+        <DayNightToggle size={30} onChange={handleChangeTheme} checked={isDarkMode} />
       </div>
     </div>
   )

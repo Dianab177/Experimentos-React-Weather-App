@@ -32,7 +32,7 @@ const WeatherForecast = (props) => {
           {forecast.map(function (dailyForecast, index) {
             if (index < 5) {
               return (
-                <div className="col" key={index}>
+                <div className="col m-0" key={index}>
                   <WeatherForecatsDay data={dailyForecast} />
                 </div>
               );
