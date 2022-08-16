@@ -14,7 +14,6 @@ const WeatherForecast = (props) => {
   function handleResponse(response) {
     setLoaded(true);
     setForecast(response.data.daily);
-    console.log(response.data);
   }
   function load() {
     let apiKey = "38a4b4ab7fe27a1d5c59088c9b79826b";

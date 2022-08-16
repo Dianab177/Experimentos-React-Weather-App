@@ -1,13 +1,13 @@
 body[data-theme=light] {
     background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
     color: black;
-    transition: background-color 1050ms ease-in-out;
+    transition: background 1050ms ease-in-out;
   }
   
   body[data-theme=dark] {
     background: linear-gradient(178deg, rgb(1, 45, 71) 15%, rgb(41, 80, 119) 72%, rgb(8, 67, 186) 100%);
     color: white;
-    transition: background-color 1050ms ease-in-out;
+    transition: background 1050ms ease-in-out;
   }
 .swichtDay{
     display: flex;
@@ -46,11 +46,10 @@ margin: 5px;
     text-decoration: none;
     
 }
-.Weather canvas{
-    height: 64px;
-    width: 64px;
-    margin-right: 10px;
+.Weather canvas {
     display: inline-block;
+    height: 80px;
+    width: 80px;
 }
 .Weather .temperature{
     text-align: center;

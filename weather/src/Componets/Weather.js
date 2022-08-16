@@ -39,16 +39,16 @@ const Weather = (props) => {
   if (weatherData.ready) {
     return (
       <div className="Weather">
-        <div className="row d-flex justify-content-center align-items-center">
+        <div className="row d-flex justify-content-around align-items-center ">
         <div className="col-8">
-        <form className="search" onSubmit={handleSubmit}>
+        <form className="search mt-2" onSubmit={handleSubmit}>
           <div className="row  d-flex justify-content-center align-items-center">
           <div className="col-2">
                 <button type="submit" className="btn btn-link">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="25"
-                    height="25"
+                    width="30"
+                    height="30"
                     fill="goldenrod"
                     class="bi bi-search text-center"
                     viewBox="0 0 16 16"
@@ -61,7 +61,7 @@ const Weather = (props) => {
                 <input
                   type="search"
                   id="search-text"
-                  className="form control border bg-warning h4 p-1 rounded-5 opacity-75"
+                  className="form control border bg-warning h5 p-2 rounded-5 opacity-75"
                   placeholder="  Enter a city..."
                   autoComplete="off"
                   onChange={handleCityChange}
