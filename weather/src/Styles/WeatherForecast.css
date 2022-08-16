@@ -3,19 +3,21 @@
 }
 .WeatherForecastTemperature-min{
     opacity: 0.6;
-    margin-left: 5px;
+   
+    
     font-size:0.75rem;
 }
 .container-day{
    margin: 30px 5px;
+   border-radius: 5px;
+   border: solid 1px goldenrod;
 }
-.Weather canvas {
+.iconForecast canvas {
     display: inline-block;
     height: 30px;
-    margin-right: 10px;
     width: 30px;
 }
 .WeatherForecastDay{
     font-size: 0.75rem;
-    margin-right: 10px;
+   
 }

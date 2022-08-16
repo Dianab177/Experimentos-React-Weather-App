@@ -8,8 +8,8 @@ const WeatherInfo = (props) => {
   return (
       <div className="row mt-3">
         <div className="col-4 d-flex justify-content-center align-items-center ">
-          <div className="Weather d-inline-block">
-            <WeatherIcon code={props.data.icon} size={100}/>
+          <div className="d-inline-block">
+            <WeatherIcon code={props.data.icon} size={100} className="Weather"/>
           </div>
         </div>
         <div className="col-4">
