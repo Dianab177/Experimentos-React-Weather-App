@@ -1,13 +1,15 @@
 body[data-theme=light] {
-    background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
     color: black;
-    transition: background 1050ms ease-in-out;
+    transition: background-image 1050ms ease-in-out;
+    background-image: no-repeat;
   }
   
   body[data-theme=dark] {
-    background: linear-gradient(178deg, rgb(1, 45, 71) 15%, rgb(41, 80, 119) 72%, rgb(8, 67, 186) 100%);
+    background-image: linear-gradient(178deg, rgb(1, 45, 71) 15%, rgb(41, 80, 119) 72%, rgb(8, 67, 186) 100%);
     color: white;
-    transition: background 1050ms ease-in-out;
+    transition: background-image 1050ms ease-in-out;
+    background-image: no-repeat;
   }
 .swichtDay{
     display: flex;

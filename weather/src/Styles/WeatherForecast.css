@@ -8,8 +8,9 @@
     font-size:0.75rem;
 }
 .container-day{
+    padding: 80px;
    margin: 30px 5px;
-   border-radius: 5px;
+   border-radius: 10px;
    border: solid 1px goldenrod;
 }
 .iconForecast canvas {

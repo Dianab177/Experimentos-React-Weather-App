@@ -61,7 +61,7 @@ const Weather = (props) => {
                 <input
                   type="search"
                   id="search-text"
-                  className="form control border bg-warning h5 p-2 rounded-5 opacity-75"
+                  className="form control border bg-warning h5 p-2 rounded-5"
                   placeholder="  Enter a city..."
                   autoComplete="off"
                   onChange={handleCityChange}
